@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1600px) {
+.banner_sec h1{ font-size:72px; }
+.banner_sec p{ font-size:47px; line-height:52px; }
+.investment_lgap{ padding-left:80px; padding-top:135px; padding-bottom:135px;}
+.investment_rgap{ padding-right:80px; padding-top:135px; padding-bottom:135px;}
+
+#Investment_Approach h2{ font-size:30px; }
+.container {
+    max-width: 1300px;
+}
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.banner_sec p{ font-size:38px; line-height:52px; }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.navbar-expand-md .navbar-nav > .nav-item {
+    margin-left: 18px;
+}
+.investment_lgap{ padding-left:10px; padding-top:50px; padding-bottom:50px; }
+.investment_rgap{ padding-right:10px; padding-top:50px; padding-bottom:50px; }
+ .footer_l{ float:none; padding-top:40px; text-align:center; }
+ .footer_r{ float:none; padding-top:15px; text-align:center; }
+ .footer_r span{ display:block; text-align:center; }
+ .investment_video_r{ position:static; }
+ .investment_video_r{ position:static; width:100%; padding-bottom:35px; }
+ .video_sec{ padding-top:0; padding-left:15px; padding-right:15px; }
+ .signup_form input[type="text"]{ padding:11px 12px; }
+ .signup_form input[type="submit"]{ padding:11px 30px 11px 5px; font-size:18px; }
+ .navbar-expand-md .navbar-nav .nav-link{ font-size:16px; }
+}
+@media only screen and (max-width: 767px) {
+ .logo_sec{ position:absolute; left:15px; top:10px; }
+ .logo{ float:none; }
+ .logo_r{ float:right; }
+ .navbar-collapse{ position:absolute; left:0; right:0; background-color:#333333; top:110px; padding-top:10px; padding-bottom:10px; }
+ .navbar-expand-md .navbar-nav .nav-link{ color:#fff; }
+ .navbar-expand-md .navbar-nav > .nav-item{ padding-top:5px; padding-bottom:5px; }
+ .investment_img, .investment_img_r{ display:none; }
+ .investment_img_mob{ display:block; }
+ .investment_img_mob img{ width:100%; }
+ .investment_lgap{ padding-left:0px; padding-top:10px; padding-bottom:25px; }
+ .investment_rgap{ padding-right:0px; padding-top:65px; padding-bottom:25px; }
+ .footer_l{ float:none; padding-top:40px; text-align:center; }
+ .footer_r{ float:none; padding-top:10px; text-align:center; }
+ .footer_r span{ display:block; text-align:center; }
+ .investment_video_r{ position:static; width:100%; padding-bottom:35px; }
+ .video_sec{ padding-top:0; padding-left:15px; padding-right:15px; }
+ .textbox{ width:100%; float:none; }
+ .submit_sec{ width:100%; float:none; }
+ .signup_form input[type="submit"]{ background-position:99% 6px; }
+ header{ background-color: #6eaea4; border-bottom-color: #999999; position:fixed; padding-bottom: 30px; }
+}
+@media (min-width: 576px) and  (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .fot_form input[type="text"]{ width: 100%; }
+}
